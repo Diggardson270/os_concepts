@@ -1,0 +1,48 @@
+body {
+  background: #ffffff;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.first-nav {
+  background-color: #031f42;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contacts {
+  display: flex;
+  gap: 2rem;
+}
+
+.login {
+  display: flex;
+  gap: 2rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.socials i {
+  color: white;
+}
